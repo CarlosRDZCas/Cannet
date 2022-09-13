@@ -41,7 +41,7 @@ nav {
     height: auto;
     width: 69px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     justify-content: center;
     align-items: center;
 }
@@ -289,16 +289,12 @@ p {
 }
 
 
-@media (max-width: 878px) {
-    #rowimg{
+@media all and (max-width: 878px) {
+    .rowimg{
         order:1;
     }    
-    #rowimg2{
-        order:1;
-    }
+    
   }
-
-
 
 footer {
     display: flex;
