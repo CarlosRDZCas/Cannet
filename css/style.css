@@ -372,9 +372,9 @@ footer {
 }
 
 .footerlogotext {
-    display: flex;
-  
+    display: flex;  
     color: white;
     padding-left: 8px;
+    font-size: 15px;
 
 }
