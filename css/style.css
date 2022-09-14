@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -34,14 +34,17 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: transparent;
+}
 
+.navlogo{
+    padding-left: 15px;
 }
 
 .logo {
     height: auto;
     width: 69px;
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -68,7 +71,6 @@ nav {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-
 }
 
 .navmenu {
@@ -93,7 +95,6 @@ nav {
 }
 
 .headercontent {
-
     max-width: 770px;
     margin-right: 10px;
     margin-left: 10px;
@@ -162,7 +163,6 @@ p {
     font-size: 16px;
     line-height: 30px;
     font-weight: 800;
-
 }
 
 .headerbutton:hover {
@@ -196,7 +196,6 @@ p {
 .featuresspan {
     color: rgb(141, 141, 141);
     font-weight: 600;
-
 }
 
 .featuresh2 {
@@ -214,9 +213,9 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+
     padding-right: 30px;
-    padding-bottom: 80px;
+
     padding-left: 30px;
     background-color: white;
 }
@@ -266,11 +265,10 @@ p {
     max-width: 450px;
     height: 100%;
     max-height: 280px;
-    min-height: 200px;  
+    min-height: 200px;
 }
 
 .textspan {
-
     color: rgb(141, 141, 141);
     font-weight: 600;
     font-size: 18px;
@@ -290,11 +288,12 @@ p {
 
 
 @media all and (max-width: 878px) {
-    .rowimg{
-        order:1;
-    }    
-    
-  }
+    .rowimg {
+        order: 1;
+    }
+
+
+}
 
 footer {
     display: flex;
@@ -304,7 +303,7 @@ footer {
     padding-top: 120px;
     padding-bottom: 120px;
     padding-right: 30px;
-    padding-left: 30px;
+
     justify-content: center;
     align-items: center;
     background-color: #0a0e1a;
@@ -313,20 +312,28 @@ footer {
 .footercolumn {
     display: flex;
     width: 50%;
+
     flex-direction: column;
+    padding-left: 30px;
 }
 
 .footertext {
     display: flex;
     position: relative;
     font-size: 14px;
+    padding-left: 30px;
+    left: 6px;
     color: rgb(165, 165, 165);
+}
 
+.footerlinklogo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .footerlinklist {
-    display: flex;
-    padding-right: 50px;
+    display: flex;  
     flex-direction: column;
 }
 
@@ -360,13 +367,14 @@ footer {
 }
 
 .footerrow {
-    display: flex;   
+    display: flex;
     flex-direction: row;
 }
 
-.footerlogotext{
-    display: flex;   
-    position: relative;
- 
-    padding-left: 15px;
+.footerlogotext {
+    display: flex;
+  
+    color: white;
+    padding-left: 8px;
+
 }
